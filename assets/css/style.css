@@ -1,3 +1,78 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    background-color: lightgreen;
+    border: solid 1px black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4A460; /* Wüstenbeige */
+    color: #8B4513; /* Erdisches Braun */ 
+}
+
+h1, h2, h3 {
+    color: #A52A2A; /* Dämmerungsrot */
+}
+
+a {
+    color: #6B8E23; /* Akaziengrün */
+}
+
+/* Header */
+header {
+    background-color: #4682B4; /* Himmelblau */
+    color: #FFFFFF;
+}
+
+#menu {
+    list-style-type: none;
+    }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    background-color: #556B2F; /* Grasgrün */
+}
+
+nav a {
+    color: #FFFFFF;
+}
+
+/* Hoover effect */
+a:hover {
+    color: #FF8C00; /* Sonnenuntergangsorange */
+}
+
+button:hover {
+    background-color: #DAA520; /* Savannengelb */
+}
+
+/* Button */
+button {
+    background-color: #FF8C00; /* Sonnenuntergangsorange */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    background-color: #FFF8DC; /* Cornsilk, ein leichtes, einladendes Beige */
+    color: #8B4513; /* Erdisches Braun */
+}
+
+/* Footer */
+footer {
+    background-color: #2E8B57; /* Ozeanblau */
+    color: #FFFFFF;
 }

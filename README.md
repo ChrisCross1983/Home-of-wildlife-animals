@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-## UX / UI
+## UX
 
 ### Target Audience
 
