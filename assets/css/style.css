@@ -1,9 +1,8 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    border: solid 1px black;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,12 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
     background-color: #F4A460; /* Wüstenbeige */
     color: #8B4513; /* Erdisches Braun */ 
 }
 
 h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #A52A2A; /* Dämmerungsrot */
 }
 
@@ -28,35 +30,16 @@ a {
     color: #6B8E23; /* Akaziengrün */
 }
 
-/* Header */
-header {
-    background-color: #4682B4; /* Himmelblau */
-    color: #FFFFFF;
-}
-
-#menu {
-    list-style-type: none;
-    }
-
-/* Navbar styles with dropdown toggle */
-nav {
-    background-color: #556B2F; /* Grasgrün */
-}
-
-nav a {
-    color: #FFFFFF;
-}
-
-/* Hoover effect */
 a:hover {
     color: #FF8C00; /* Sonnenuntergangsorange */
 }
+
+/* Button */
 
 button:hover {
     background-color: #DAA520; /* Savannengelb */
 }
 
-/* Button */
 button {
     background-color: #FF8C00; /* Sonnenuntergangsorange */
     color: #FFFFFF;
@@ -65,10 +48,75 @@ button {
     border-radius: 5px;
 }
 
+/* Header */
+header {
+    background-color: #4682B4; /* Himmelblau */
+    color: #FFFFFF;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 2px 2px #8B4513;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo {
+    color: #FFFFFF;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu a {
+    color: #FFFFFF;
+}
+
+.active {
+    border-bottom: 1px solid #8B4513;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    background-color: #556B2F; /* Grasgrün */
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #8B4513;
+    display: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    align-self: center;
+}
+
 /* Main content */
 main {
-    background-color: #FFF8DC; /* Cornsilk, ein leichtes, einladendes Beige */
+    /* background-color: #FFF8DC Cornsilk, ein leichtes, einladendes Beige */
     color: #8B4513; /* Erdisches Braun */
+    flex: 1 0 auto;
+    /* Add margin top to prevent content being hidden by header */
+    margin-top: 114px;
 }
 
 /* Footer */
