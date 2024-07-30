@@ -15,35 +15,32 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Lora', serif;
-    background-color: #F4A460; /* Wüstenbeige */
-    color: #8B4513; /* Erdisches Braun */ 
+    color: #8B4513; /* SaddleBrown */ 
 }
 
 h1, h2, h3 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #A52A2A; /* Dämmerungsrot */
+    color: #8B4513; /* SaddleBrown */
 }
 
-/* perhaps for the main content
-a {
-    color: #6B8E23; Akaziengrün 
-}    
-*/
-
+/* :hover */
 #menu a:hover {
-    color: #FF8C00; /* Sonnenuntergangsorange */
+    color: #FF8C00; /* DarkOrange */
+}
+
+#social-networks i:hover {
+    color: #FF8C00; /* DarkOrange */
+}
+
+button:hover {
+    background-color: #FF8C00; /* DarkOrange */
 }
 
 /* Button */
-
-button:hover {
-    background-color: #DAA520; /* Savannengelb */
-}
-
 button {
-    background-color: #FF8C00; /* Sonnenuntergangsorange */
+    background-color: #DAA520; /* GoldenRod */
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
@@ -52,7 +49,7 @@ button {
 
 /* Header */
 header {
-    background-color: #4682B4; /* Himmelblau */
+    background-color: #4682B4; /* SteelBlue */
     display: flex;
     position: fixed;
     z-index: 99;
@@ -60,15 +57,15 @@ header {
     padding: 0 1rem;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px #8B4513;
+    box-shadow: 0 2px 2px #8B4513; /* SaddleBrown */
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 #logo {
-    color: #8B4513;
+    color: #F4A460; /* SandyBrown */
     padding: 2px 10px;
     text-align: center;
     font-size: larger;
@@ -78,27 +75,30 @@ header a {
     list-style-type: none;
     font-size: 110%;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 #menu a {
-    color: #FFF8DC;
+    color: #F4A460; /* SandyBrown */
     font-size: large;
+    text-decoration: none;
 }
 
 .active {
-    border-bottom: 1px solid #F4A460;
+    border-bottom: 1px solid #F4A460; /* SandyBrown */
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
-    background-color: #556B2F; /* Grasgrün */
+    background-color: #556B2F; /* DarkOliveGreen */
     position: absolute;
     width: 100%;
     top: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #8B4513;
+    box-shadow: 0 2px 2px #8B4513; /* SaddleBrown */
     display: none;
+    
 }
 
 /* Nav toggle */
@@ -115,27 +115,54 @@ nav {
     align-self: center;
 }
 
+header i {
+    color: #F4A460; /* SandyBrown */
+}
+
 /* Main content */
 main {
-    background-color: #FFF8DC;
-    color: #8B4513; /* Erdisches Braun */
     flex: 1 0 auto;
     /* Add margin top to prevent content being hidden by header */
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background: url(/assets/images/Two\ zebra.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#cover-text {
+    background-color: #556B2F90;
+    width: 80%;
+    min-height: auto;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+#cover-text h3 {
+    color: #F4A460;
 }
 
 /* Footer */
 footer {
-    background-color: #2E8B57; /* Ozeanblau */
-    color: #FFFFFF;
+    background-color: #556B2F; /* DarkOliveGreen */
     width: 100%;
 }    
 
 #social-networks {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    list-style-type: none;
     padding: 10px 0;
+    list-style-type: none;
+}
+
+#social-networks i {
+    color: #F4A460; /* SandyBrown */
+    padding: 10px;
     font-size: 1.5rem;
 }
