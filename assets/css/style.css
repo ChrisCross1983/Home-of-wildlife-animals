@@ -35,16 +35,17 @@ h1, h2, h3 {
 }
 
 button:hover {
-    background-color: #FF8C00; /* DarkOrange */
+    background-color: #DAA520; /* GoldenRod */
 }
 
 /* Button */
 button {
-    background-color: #DAA520; /* GoldenRod */
+    background-color: #FF8C00; /* DarkOrange */
     color: #FFFFFF;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
+    font-size: 0.8rem;
 }
 
 /* Header */
@@ -98,7 +99,6 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #8B4513; /* SaddleBrown */
     display: none;
-    
 }
 
 /* Nav toggle */
@@ -119,7 +119,7 @@ header i {
     color: #F4A460; /* SandyBrown */
 }
 
-/* Main content */
+/* Main content index.html*/
 main {
     flex: 1 0 auto;
     /* Add margin top to prevent content being hidden by header */
@@ -148,6 +148,96 @@ main {
     color: #F4A460;
 }
 
+/* About us */
+#about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(244, 164, 96, 0.3);
+}
+
+#about-us-image {
+    background: url(/assets/images/Group.jpg) no-repeat center center/cover;
+    width: 250px;
+    height: 250px;
+    margin: 20px 0;
+    border-radius: 25%;
+}
+
+/* Our Mission*/
+#our-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(244, 164, 96, 0.1);
+}
+
+#our-mission-image {
+    background: url(/assets/images/elefants.jpg) no-repeat center center/cover;
+    width: 250px;
+    height: 250px;
+    margin: 20px 0;
+    border-radius: 25%;
+}
+
+/* Find out more */
+#find-out-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: rgba(244, 164, 96, 0.3);
+}
+
+#buttons-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+#buttons-main button {
+    flex: 0 1 100px;
+}
+
+#buttons-main a {
+    text-decoration: none;
+}
+
+/* Main Content projects.html */
+
+#hero-chettah {
+    background: url(/assets/images/Chettah.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+/* Main Content volunteering.html */
+
+#hero-meerkat {
+    background: url(/assets/images/Meerkat.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+/* Main Content support_contact.html */
+
+#hero-giraffes {
+    background: url(/assets/images/Giraffes.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
 /* Footer */
 footer {
     background-color: #556B2F; /* DarkOliveGreen */
@@ -166,3 +256,4 @@ footer {
     padding: 10px;
     font-size: 1.5rem;
 }
+
