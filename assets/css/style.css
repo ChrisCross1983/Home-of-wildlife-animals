@@ -26,11 +26,13 @@ h1, h2, h3 {
     color: #A52A2A; /* Dämmerungsrot */
 }
 
+/* perhaps for the main content
 a {
-    color: #6B8E23; /* Akaziengrün */
-}
+    color: #6B8E23; Akaziengrün 
+}    
+*/
 
-a:hover {
+#menu a:hover {
     color: #FF8C00; /* Sonnenuntergangsorange */
 }
 
@@ -51,14 +53,13 @@ button {
 /* Header */
 header {
     background-color: #4682B4; /* Himmelblau */
-    color: #FFFFFF;
     display: flex;
     position: fixed;
     z-index: 99;
     width: 100%;
     padding: 0 1rem;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     box-shadow: 0 2px 2px #8B4513;
 }
 
@@ -67,7 +68,10 @@ header a {
 }
 
 #logo {
-    color: #FFFFFF;
+    color: #8B4513;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: larger;
 }
 
 #menu {
@@ -77,11 +81,12 @@ header a {
 }
 
 #menu a {
-    color: #FFFFFF;
+    color: #FFF8DC;
+    font-size: large;
 }
 
 .active {
-    border-bottom: 1px solid #8B4513;
+    border-bottom: 1px solid #F4A460;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -112,15 +117,25 @@ nav {
 
 /* Main content */
 main {
-    /* background-color: #FFF8DC Cornsilk, ein leichtes, einladendes Beige */
+    background-color: #FFF8DC;
     color: #8B4513; /* Erdisches Braun */
     flex: 1 0 auto;
     /* Add margin top to prevent content being hidden by header */
-    margin-top: 114px;
+    margin-top: 50px;
 }
 
 /* Footer */
 footer {
     background-color: #2E8B57; /* Ozeanblau */
     color: #FFFFFF;
+    width: 100%;
+}    
+
+#social-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 1.5rem;
 }
