@@ -79,7 +79,7 @@ header a {
 }
 
 #logo {
-    color: #F4A460; /* SandyBrown */
+    color: #FFFFFF; /* SandyBrown */
     padding: 2px 10px;
     text-align: center;
     font-size: larger;
@@ -149,7 +149,7 @@ main {
 }
 
 #cover-text {
-    background-color: #556B2F90;
+    background-color: rgba(85, 107, 47, .8);
     width: 80%;
     min-height: auto;
     padding: 20px;
