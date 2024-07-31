@@ -30,11 +30,53 @@
         </nav>
     </header>
     <main>
-        <section id="hero-giraffes">
-            <div id="cover-text">
-                <h3>"Lots of people talk to animals... Not very many listen, though... That's the problem."
-                    ― <i>Benjamin Hoff</i></h3>
-            </div>
+        <section id="hero-giraffe">
+            <form id="contact-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2>Let's get in touch</h2>
+                <label for="">First Name</label>
+                <input type="name" id="fname" class="text-input" required><br>
+                <label for="">Last Name</label>
+                <input type="name" id="lname" class="text-input" required><br>
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" class="text-input" required><br>
+                <!-- Radio Button -->
+                <h3>Which Project do you want to join?</h3>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="animals">Animals</label>
+                        <input type="radio" id="animals" name="project_preference" value="Animals" required checked><br>
+                    </div>
+                    <div>
+                        <label for="nature">Nature</label>
+                        <input type="radio" id="nature" name="project_preference" value="Nature" required checked><br>
+                    </div>
+                    <div>
+                        <label for="people">People</label>
+                        <input type="radio" id="people" name="project_preference" value="People" required checked><br>
+                    </div>
+                </div>
+                <!-- Checkbox -->
+                <h3>Volunteering period</h3>
+                <div class="checkbox">
+                    <label for="quater-select">Choose a Quater:</label>
+                    <select name="quater" id="quater-select" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="Jan-Mar">1st quarter</option>
+                        <option value="Apr-Jun">2st quarter</option>
+                        <option value="Jul-Sep">3st quarter</option>
+                        <option value="Okt-Dec">4st quarter</option>
+                    </select><br>
+                    <label for="year-select">Choose a Year:</label>
+                    <select name="year" id="year-select" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select><br>
+                </div>
+                <!-- Submit Button -->
+                <div class="contact-button"><button type="submit">Let's get it on!</button></div>
+            </form>
         </section>
     </main>
     <footer>

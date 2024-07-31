@@ -26,6 +26,10 @@ h1, h2, h3 {
     color: #8B4513; /* SaddleBrown */
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -210,10 +214,6 @@ main {
     flex: 0 1 100px;
 }
 
-#buttons-main a {
-    text-decoration: none;
-}
-
 /* Main Content projects.html */
 #hero-chettah {
     background: url(/assets/images/Chettah.jpg) no-repeat center/cover;
@@ -317,11 +317,56 @@ main {
 }
 
 /* Main Content contact.html */
-#hero-giraffes {
-    background: url(/assets/images/Giraffes.jpg) no-repeat center/cover;
+#hero-giraffe {
+    background: url(/assets/images/single_giraffe.jpg);
+    background-size: cover;
+    background-position: 70%;
+    flex-grow: 1;
+    padding: 20px 10px;
+}
+
+#contact-form {
+padding: 20px;
+color: #FFFFFF;
+background-color: rgba(85, 107, 47, 0.6);
+}
+
+#contact-form h2, h3 {
+    color: #F4A460;
+}
+
+.text-input {
+    background: transparent;
+    display: flex;
+    border: 1px solid #F4A460;
+    color: #F4A460;
+    border-radius: 5px;
     width: 100%;
-    height: 600px;
-    position: relative;
+    height: 25px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.radio-buttons {
+    margin: 10px 0 20px 0;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.checkbox {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 /* Footer */
