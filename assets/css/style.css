@@ -461,6 +461,25 @@ footer {
         gap: 20px;
     }
 
+    /* Project page */
+    #project1,
+    #project3 {    
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #project2 {    
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    #header_image1,
+    #header_image2,
+    #header_image3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     /* Contact page */
     #contact-form {
         position: relative;
