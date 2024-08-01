@@ -40,16 +40,17 @@ img {
 }
 
 /* :hover */
-#menu a:hover {
-    color: #FF8C00; /* DarkOrange */
+li:hover {
+    border: 1px solid #8B4513;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #social-networks i:hover {
-    color: #FF8C00; /* DarkOrange */
+    color: #FF8C00;
 }
 
 button:hover {
-    background-color: #DAA520; /* GoldenRod */
+    background-color: #4682B4;
 }
 
 /* Button */
@@ -80,7 +81,7 @@ header a {
 }
 
 #logo {
-    color: #FFFFFF; /* SandyBrown */
+    color: #FFFFFF;
     padding: 2px 10px;
     text-align: center;
     font-size: larger;
@@ -100,7 +101,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #F4A460; /* SandyBrown */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Navbar styles with dropdown toggle */
@@ -110,7 +111,6 @@ nav {
     width: 100%;
     top: 100%;
     left: 0;
-    padding: 0 1rem;
     box-shadow: 0 2px 2px #8B4513; /* SaddleBrown */
     display: none;
 }
@@ -222,13 +222,6 @@ main {
     height: 600px;
     position: relative;
 }
-
-/* for larger screens
-.projects {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-}*/
 
 #project1 {
     display: flex;
@@ -406,6 +399,7 @@ footer {
         justify-content: space-evenly;
         max-width: 520px;
     }
+
     #contact-form {
         max-width: 600px;
     }
@@ -413,22 +407,35 @@ footer {
 
   /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    
+    header {
+        display: flex;
+        justify-content: center;
+        min-height: 65px;    
+    }
+
     /* Header */
     nav {
-        display: block;
+        display: flex;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        height: 65px;
+        align-items: center;
+       
     }
 
     #menu {
         display: flex;
+        flex-direction: row;
+        height: 65px;
     }
 
-    #menu>li {
-        padding-left: 1rem;
+    #menu li {
+        width: 100%;
+        min-width: 100px;
+        height: 100%;
+        padding: 0 5px;
+        align-content: center;
     }
 
     .nav-toggle-label {
@@ -436,12 +443,9 @@ footer {
     }
 
     #logo {
-        margin: 0 0.5rem;
-    }
-
-    #header {
-        display: flex;
-        height: 50px;
+        margin: 0.5rem 0.5rem;
+        font-size: 150%;
+        max-width: 250px;
     }
 
     #contact-form {
@@ -450,13 +454,10 @@ footer {
         left: 100px;
     }
 
-    /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 60px;
+        margin-top: 78px;
     }
 
-    /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
@@ -465,6 +466,6 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    #menu li:hover {
+        border-bottom: 1px solid #8B4513;
     }
