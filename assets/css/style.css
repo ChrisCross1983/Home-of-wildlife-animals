@@ -31,6 +31,18 @@ a {
     color: #ffffff;
 }
 
+p {
+    text-align: justify;
+    max-width: 600px;
+}
+
+hr {
+    margin: 10px 0;
+    height: 2px;
+    background-color: #F4A460;
+    border-width: 0;
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -408,13 +420,13 @@ footer {
 
   /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Header */
     header {
         display: flex;
         justify-content: center;
         min-height: 65px;    
     }
 
-    /* Header */
     nav {
         display: flex;
         position: relative;
@@ -448,10 +460,23 @@ footer {
         max-width: 250px;
     }
 
+    /* Home Page */
+    #about-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /* Contact page */
     #contact-form {
         position: relative;
         top: 100px;
         left: 100px;
+    }
+
+    /* General */
+    button {
+        font-size: 1.25rem;
     }
 
     main {
@@ -462,9 +487,14 @@ footer {
         width: 300px;
         right: 50px;
     }
-    
-    button {
-        font-size: 1.25rem;
+
+    img {
+        min-width: 250px;
+    }
+
+    h1, h2, h3 {
+        font-size: 2rem;
+        padding: 0;
     }
 }
 
