@@ -40,13 +40,14 @@ img {
 }
 
 /* :hover */
-li:hover {
+nav li:hover {
     border: 1px solid #8B4513;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 #social-networks i:hover {
     color: #FF8C00;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 button:hover {
@@ -334,7 +335,7 @@ top: 50px;
     background: transparent;
     display: flex;
     border: 1px solid #ffffff;
-    color: #F4A460;
+    color: #ffffff;
     border-radius: 5px;
     width: 100%;
     height: 25px;
@@ -403,6 +404,10 @@ footer {
     #contact-form {
         max-width: 600px;
     }
+    
+    button {
+        font-size: 1rem;
+    }
 }
 
   /* Media query: tablets and larger (768px and up) */
@@ -421,7 +426,6 @@ footer {
         width: fit-content;
         height: 65px;
         align-items: center;
-       
     }
 
     #menu {
@@ -462,10 +466,10 @@ footer {
         width: 300px;
         right: 50px;
     }
+    
+    button {
+        font-size: 1.25rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu li:hover {
-        border-bottom: 1px solid #8B4513;
-    }
