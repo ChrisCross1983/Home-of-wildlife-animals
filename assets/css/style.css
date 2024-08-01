@@ -454,9 +454,14 @@ footer {
     }
 
     #our-mission-one,
-    #our-mission-two,
     #our-mission-three {
         flex-direction: row-reverse;
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+    #our-mission-two {
+        flex-direction: row;
         padding: 20px 20px;
         gap: 20px;
     }
@@ -472,18 +477,22 @@ footer {
         justify-content: space-evenly;
     }
 
-    #header_image1,
-    #header_image2,
-    #header_image3 {
+    .header_image {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
+    /* Support page */
+    #volunteer,
+    #donate {
+        flex-direction: row;
+    }
+
     /* Contact page */
     #contact-form {
         position: relative;
-        top: 100px;
+        top: 50px;
         left: 100px;
     }
 
