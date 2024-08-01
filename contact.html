@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home of wildlife animals</title>
+    <title>Home of wild animals</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header id="header">
         <a href="index.html">
-            <h1 id="logo">Home of wildlife animals</h1>
+            <h1 id="logo">Home of wild animals</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
@@ -30,7 +30,7 @@
         </nav>
     </header>
     <main>
-        <section id="hero-giraffe">
+        <section id="hero-contact">
             <form id="contact-form" action="https://formdump.codeinstitute.net" method="post">
                 <h2>Let's get in touch</h2>
                 <label for="">First Name</label>
@@ -48,31 +48,35 @@
                     </div>
                     <div>
                         <label for="nature">Nature</label>
-                        <input type="radio" id="nature" name="project_preference" value="Nature" required checked><br>
+                        <input type="radio" id="nature" name="project_preference" value="Nature" required><br>
                     </div>
                     <div>
                         <label for="people">People</label>
-                        <input type="radio" id="people" name="project_preference" value="People" required checked><br>
+                        <input type="radio" id="people" name="project_preference" value="People" required><br>
                     </div>
                 </div>
                 <!-- Checkbox -->
                 <h3>Volunteering period</h3>
                 <div class="checkbox">
-                    <label for="quater-select">Choose a Quater:</label>
-                    <select name="quater" id="quater-select" required>
-                        <option value="">--Please choose an option--</option>
-                        <option value="Jan-Mar">1st quarter</option>
-                        <option value="Apr-Jun">2st quarter</option>
-                        <option value="Jul-Sep">3st quarter</option>
-                        <option value="Okt-Dec">4st quarter</option>
-                    </select><br>
-                    <label for="year-select">Choose a Year:</label>
-                    <select name="year" id="year-select" required>
-                        <option value="">--Please choose an option--</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
-                    </select><br>
+                    <div id="checkbox-quater">
+                        <label for="quater-select">Choose a Quater:</label><br>
+                        <select name="quater" id="quater-select" required>
+                            <option value="">--Please choose an option--</option>
+                            <option value="Jan-Mar">1st quarter</option>
+                            <option value="Apr-Jun">2st quarter</option>
+                            <option value="Jul-Sep">3st quarter</option>
+                            <option value="Okt-Dec">4st quarter</option>
+                        </select><br>
+                    </div>
+                    <div id="checkbox-year">
+                        <label for="year-select">Choose a Year:</label><br>
+                        <select name="year" id="year-select" required>
+                            <option value="">--Please choose an option--</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                    </div>
                 </div>
                 <!-- Submit Button -->
                 <div class="contact-button"><button type="submit">Let's get it on!</button></div>
