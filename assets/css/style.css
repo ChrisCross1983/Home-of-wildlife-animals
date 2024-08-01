@@ -144,7 +144,7 @@ main {
 }
 
 #hero {
-    background: url(assets/images/Two\ zebra.jpg) no-repeat center center/cover;
+    background: url(../images/Two\ zebra.jpg) no-repeat center center/cover;
     width: 100%;
     height: 600px;
     position: relative;
@@ -212,13 +212,9 @@ main {
     justify-content: space-evenly;
 }
 
-#buttons-main button {
-    flex: 0 1 100px;
-}
-
 /* Main Content projects.html */
 #hero-projects {
-    background: url(assets/images/Chettah.jpg) no-repeat center center/cover;
+    background: url(../images/Chettah.jpg) no-repeat center center/cover;
     width: 100%;
     height: 600px;
     position: relative;
@@ -275,7 +271,7 @@ main {
 
 /* Main Content support.html */
 #hero-support {
-    background: url(assets/images/Meerkat.jpg) no-repeat center center/cover;
+    background: url(../images/Meerkat.jpg) no-repeat center center/cover;
     width: 100%;
     height: 600px;
     position: relative;
@@ -313,7 +309,7 @@ main {
 
 /* Main Content contact.html */
 #hero-contact {
-    background: url(assets/images/single_giraffe.jpg);
+    background: url(../images/single_giraffe.jpg);
     background-size: cover;
     background-position: 70%;
     flex-grow: 1;
