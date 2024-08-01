@@ -4,8 +4,6 @@
   - Image (amiresponsive)
   - Link to deployed site
 
-## Table of Contents
-
 ## UX
 
 ### Target Audience
