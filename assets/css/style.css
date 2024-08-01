@@ -23,6 +23,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 10px;
+    max-width: 600px;
     color: #8B4513; /* SaddleBrown */
 }
 
@@ -39,6 +40,7 @@ p {
 hr {
     margin: 10px 0;
     height: 2px;
+    max-width: 600px;
     background-color: #F4A460;
     border-width: 0;
 }
@@ -189,7 +191,9 @@ main {
 }
 
 /* Our Mission*/
-.our-mission {
+#our-mission-one,
+#our-mission-two,
+#our-mission-three {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -445,19 +449,16 @@ footer {
 
     /* Home Page */
     #about-us {
-        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
+
     #our-mission-one,
     #our-mission-two,
     #our-mission-three {
-        display: flex;
-        align-items: center;
-    }
-    
-    #our-mission-one {
         flex-direction: row-reverse;
+        padding: 20px 20px;
+        gap: 20px;
     }
 
     /* Contact page */
