@@ -18,7 +18,7 @@ body {
     color: #8B4513; /* SaddleBrown */ 
 }
 
-h1, h2, h3 {
+h1, h2, h3:not(.quote-text) {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -168,15 +168,13 @@ main {
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    margin: 20px 0;
-    bottom: 20px;
+    bottom: 10px;
 }
 
 .quote-text {
     color: #FFFFFF;
     font-size: 1.5em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-    padding: 5px;
     border-radius: 3px;
 }
 
@@ -323,10 +321,10 @@ main {
 
 #contact-form {
     position: relative;
-    padding: 20px;
+    padding: 10px;
     color: #FFFFFF;
     background-color: rgba(85, 107, 47, 0.8);
-    top: 40px;
+    top: 10px;
 }
 
 #contact-form h2,
@@ -375,8 +373,20 @@ main {
 #hero-thanks {
     background: url(../images/thanks.jpg) no-repeat center center/cover;
     width: 100%;
-    height: 800px;
-    position: relative;
+    height: 100%;
+    position: absolute;
+}
+
+#cover-thanks {
+    background-color: rgba(85, 107, 47, 0.8);
+    width: 80%;
+    max-width: 300px;
+    min-height: auto;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    top: 20px;
+    left: 20px;
 }
 
 /* Footer */
@@ -531,6 +541,11 @@ footer {
     .cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    #cover-thanks {
+        top: 150px;
+        left: 150px;
     }
 
     img {
