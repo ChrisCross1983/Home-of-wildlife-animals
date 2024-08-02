@@ -46,8 +46,6 @@ hr {
 }
 
 img {
-    /*height: 100%;
-    width: 100%;*/
     height:300px;
     width: 250px;
     object-fit: cover;
@@ -56,23 +54,18 @@ img {
 }
 
 /* :hover */
-nav li:hover {
-    border: 1px solid #8B4513;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
 #social-networks i:hover {
     color: #FF8C00;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 button:hover {
-    background-color: #4682B4;
+    background-color: #556B2F;
 }
 
 /* Button */
 button {
-    background-color: #FF8C00; /* DarkOrange */
+    background-color: #8B4513; /* SaddleBrown */
     color: #FFFFFF;
     border: none;
     padding: 10px;
@@ -94,7 +87,7 @@ header {
 }
 
 header a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 #logo {
@@ -102,6 +95,7 @@ header a {
     padding: 2px 10px;
     text-align: center;
     font-size: larger;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 #menu {
@@ -112,9 +106,10 @@ header a {
 }
 
 #menu a {
-    color: #F4A460; /* SandyBrown */
+    color: #FFFFFF;
     font-size: large;
     text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .active {
@@ -166,17 +161,23 @@ main {
     position: relative;
 }
 
-#cover-text {
-    background-color: rgba(85, 107, 47, .8);
+.cover-text {
+    background-color: rgba(85, 107, 47, 0.8);
     width: 80%;
     min-height: auto;
     padding: 20px;
     position: absolute;
+    border-radius: 5px;
+    margin: 20px 0;
     bottom: 20px;
 }
 
-#cover-text h3 {
-    color: #F4A460;
+.quote-text {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 3px;
 }
 
 /* About us */
@@ -316,15 +317,19 @@ main {
 }
 
 #contact-form {
-padding: 20px;
-color: #FFFFFF;
-background-color: rgba(85, 107, 47, 0.8);
-top: 50px;
+    position: relative;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: rgba(85, 107, 47, 0.8);
+    top: 40px;
 }
 
-#contact-form h2, h3 {
-    color: #F4A460;
-}
+#contact-form h2,
+#contact-form h3 {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    padding-bottom: 5px;
+    }
 
 .text-input {
     background: transparent;
@@ -369,18 +374,9 @@ top: 50px;
     position: relative;
 }
 
-#cover-text-thanks {
-        background-color: rgba(85, 107, 47, .8);
-        width: 80%;
-        min-height: auto;
-        padding: 20px;
-        position: absolute;
-        bottom: 150px;
-}
-
 /* Footer */
 footer {
-    background-color: #556B2F; /* DarkOliveGreen */
+    background-color: #4682B4; /* DarkOliveGreen */
     width: 100%;
 }    
 
@@ -392,7 +388,7 @@ footer {
 }
 
 #social-networks i {
-    color: #F4A460; /* SandyBrown */
+    color: #FFFFFF;
     padding: 10px;
     font-size: 1.5rem;
 }
@@ -527,7 +523,7 @@ footer {
         margin-top: 78px;
     }
 
-    #cover-text {
+    .cover-text {
         width: 300px;
         right: 50px;
     }
@@ -536,10 +532,25 @@ footer {
         min-width: 250px;
     }
 
-    h1, h2, h3 {
+    h1, h2 {
         font-size: 2rem;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 1.5rem;
         padding: 0;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 768px) {
+    #menu li:hover {
+        border: 1px solid #8B4513;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #menu li {
+        transition: background-color 0.5s;
+    }
+}
