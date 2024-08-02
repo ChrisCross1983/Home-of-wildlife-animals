@@ -206,6 +206,11 @@ main {
     background-color: rgba(244, 164, 96, 0.1);
 }
 
+#our-mission-one,
+#our-mission-two {
+    border-bottom: 5px solid #FFFFFF;
+}
+
 /* Find out more */
 #find-out-more {
     display: flex;
@@ -539,7 +544,7 @@ footer {
 
     h3 {
         font-size: 1.5rem;
-        padding: 0;
+        padding: 10px;
     }
 }
 
