@@ -3,7 +3,7 @@
 Home of wild animals is a small NGO located in Tanzania that presents its work and the people behind it in a warm manner. 
 The site is aimed at all individuals who are looking for a professional and reputable organization to help. Visiting the website builds trust by talking in detail about the motivation and daily projects of the organization.
 
-![Responsive Mockup](assets/images/readme-images/Screenshot%202024-08-05%20133428.png)
+![Responsive Mockup](assets/images/readme-images/mockup.png)
 
 You can explore the live site here - [Link to deployed site](https://chriscross1983.github.io/Home-of-wildlife-animals/)
 
