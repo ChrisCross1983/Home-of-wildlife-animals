@@ -80,7 +80,7 @@ img {
     border: none;
     padding: 10px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 /* Header */
@@ -278,7 +278,7 @@ main {
 }
 
 #button-support {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #volunteer {
@@ -425,7 +425,7 @@ footer {
     }
     
     .button {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -529,7 +529,7 @@ footer {
 
     /* General */
     .button {
-        font-size: 1.25rem;
+        font-size: 1.50rem;
         min-width: 100px;
     }
 
