@@ -27,6 +27,10 @@ h1, h2, h3:not(.quote-text) {
     color: #8B4513; /* SaddleBrown */
 }
 
+#header-intro h2 {
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -286,6 +290,21 @@ main {
     position: relative;
 }
 
+#header-intro {
+    display: flex;
+    justify-content: center;
+    border: 10px solid white;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+#button-support {
+    margin-top: 20px;
+}
+
 #volunteer {
     display: flex;
     flex-direction: column;
@@ -295,7 +314,12 @@ main {
     width: 100%;
     gap: 20px;
     padding: 20px 20px;
+    border: 10px solid white;
     background-color: rgba(244, 164, 96, 0.1);
+}
+
+#volunteer-text {
+    padding: 10px;
 }
 
 #donate {
@@ -307,6 +331,7 @@ main {
     width: 100%;
     gap: 20px;
     padding: 20px 20px;
+    border: 10px solid white;
     background-color: rgba(244, 164, 96, 0.3);
 }
 
@@ -522,6 +547,10 @@ footer {
         flex-direction: row;
     }
 
+    #header-intro h2{
+        font-size: 3rem;
+    }
+
     /* Contact page */
     #contact-form {
         position: relative;
@@ -532,6 +561,7 @@ footer {
     /* General */
     button {
         font-size: 1.25rem;
+        min-width: 100px;
     }
 
     main {
