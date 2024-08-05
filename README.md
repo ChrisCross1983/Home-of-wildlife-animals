@@ -70,11 +70,15 @@ The page will then automatically refresh and provide a link to the published sit
 
 The live link can be found here - https://chriscross1983.github.io/Home-of-wildlife-animals/
 
-## Testing (spereate file?)
-  - Code Validation
-  - Responsiveness
-  - Lighthouse Audit
-  - Accessibility Testing
+## Testing
+Home of wild animals has been validated via W3C HTML Validator and the W3C CSS Validator. There were 3 minor errors that came all up for the index.html page, where an error in relationship was detected. This was immediately corrected and documented down below in Bugs Fixed.
+
+![Link to W3 Code Validation](assets/images/readme-images/w3_code_validation.png)
+
+![Image of W3 CSS Code Validation](assets/images/readme-images/w3css_code_validation.png)
+
+- Lighthouse Audit
+- Accessibility Testing
   ### Manuel Testing / Testing User Stories
 
 ## Bugs
