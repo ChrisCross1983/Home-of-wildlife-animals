@@ -65,12 +65,12 @@ img {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-button:hover {
+.button:hover {
     background-color: #556B2F;
 }
 
 /* Button */
-button {
+.button {
     background-color: #8B4513; /* SaddleBrown */
     color: #FFFFFF;
     border: none;
@@ -355,9 +355,8 @@ main {
     margin-bottom: 10px;
 }
 
-.contact-button {
-    display: flex;
-    justify-content: center;
+#contact-button {
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -421,7 +420,7 @@ footer {
         max-width: 600px;
     }
     
-    button {
+    .button {
         font-size: 1rem;
     }
 }
@@ -525,7 +524,7 @@ footer {
     }
 
     /* General */
-    button {
+    .button {
         font-size: 1.25rem;
         min-width: 100px;
     }
