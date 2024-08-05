@@ -65,8 +65,12 @@ img {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.button:hover {
+.button:hover:not(#contact-button button) {
     background-color: #556B2F;
+}
+
+#contact-button button:hover {
+    background-color: #4682B4;
 }
 
 /* Button */
