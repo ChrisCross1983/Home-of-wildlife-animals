@@ -22,12 +22,12 @@ h1, h2, h3:not(.quote-text) {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding: 10px;
     max-width: 600px;
     color: #8B4513; /* SaddleBrown */
 }
 
-#header-intro h2 {
+.header-intro h2 {
     padding: 10px;
     border: 2px solid #556B2F;
     border-radius: 10px;
@@ -189,6 +189,9 @@ main {
 #find-out-more {
     background-color: rgba(244, 164, 96, 0.3);
 }
+#header-top {
+    border-top: 0;
+}
 
 #our-story,
 #our-mission-one,
@@ -264,10 +267,11 @@ main {
     position: relative;
 }
 
-#header-intro {
+.header-intro {
     display: flex;
     justify-content: center;
     border: 10px solid white;
+    border-bottom: 0;
     background-color: #ffffff;
     padding: 20px;
     font-size: 1.5rem;
@@ -519,7 +523,7 @@ footer {
         flex-direction: row;
     }
 
-    #header-intro h2{
+    .header-intro h2{
         font-size: 3rem;
     }
 
@@ -574,5 +578,17 @@ footer {
 
     #menu li {
         transition: background-color 0.5s;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 1440px) {
+    p, hr {
+        max-width: 900px;
+    }
+    .our-mission-text h3 {
+        text-align: left;
+        padding: 0 0 10px;
+        max-width: fit-content;
     }
 }
