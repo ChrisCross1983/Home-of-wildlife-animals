@@ -414,7 +414,7 @@ footer {
         display: flex;
         column-count: 2;
         justify-content: space-evenly;
-        max-width: 520px;
+        width: 100%;
     }
 
     #contact-form {
