@@ -161,7 +161,6 @@ main {
 }
 
 #hero {
-    background: url(../images/two_zebra.webp) no-repeat center center/cover;
     width: 100%;
     height: 600px;
     position: relative;
@@ -224,7 +223,6 @@ main {
 
 /* Main Content projects.html */
 #hero-projects {
-    background: url(../images/chettah.webp) no-repeat center center/cover;
     width: 100%;
     height: 600px;
     position: relative;
@@ -255,7 +253,6 @@ main {
 
 /* Main Content support.html */
 #hero-support {
-    background: url(../images/meerkat.webp) no-repeat center center/cover;
     width: 100%;
     height: 600px;
     position: relative;
@@ -305,8 +302,6 @@ main {
 
 /* Main Content contact.html */
 #hero-contact {
-    background: url(../images/single_giraffe.webp);
-    background-size: cover;
     background-position: 70%;
     flex-grow: 1;
     padding: 20px 10px;
@@ -367,7 +362,6 @@ main {
 
 /* thank you */
 #hero-thanks {
-    background: url(../images/thanks.webp) no-repeat center center/cover;
     width: 100%;
     height: 100%;
     position: absolute;
