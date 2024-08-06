@@ -328,8 +328,12 @@ main {
 #contact-form h3 {
     color: #FFFFFF;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-    padding-bottom: 5px;
+    padding-left: 0;
     }
+
+#contact-form h2 {
+    padding: 10px 0;
+}
 
 .text-input {
     background: transparent;
