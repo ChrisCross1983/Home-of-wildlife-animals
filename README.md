@@ -79,6 +79,7 @@ Home of wild animals has been validated via W3C HTML Validator and the W3C CSS V
 
 The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings: Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
 
+
 - Accessibility Testing
   ### Manuel Testing / Testing User Stories
 
