@@ -523,7 +523,7 @@ footer {
     /* Contact page */
     #contact-form {
         position: relative;
-        top: 50px;
+        bottom: 50px;
         left: 100px;
     }
 
