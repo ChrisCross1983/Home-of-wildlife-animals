@@ -155,7 +155,7 @@ header i {
 main {
     flex: 1 0 auto;
     /* Add margin top to prevent content being hidden by header */
-    /*margin-top: 50px;*/
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -400,9 +400,9 @@ footer {
 
  /* Media query: bigger smartphone screens - fixing gap Header to Main (343px to 767px) */
  @media screen and (min-width: 343px) {
-    /*main {
+    main {
         margin-top: 41px;
-    }*/
+    }
  }
  
  /* Media query: large or landscape phones (506px and up) */
@@ -527,9 +527,9 @@ footer {
         min-width: 100px;
     }
 
-    /*main {
+    main {
         margin-top: 78px;
-    }*/
+    }
 
     .cover-text {
         width: 300px;
