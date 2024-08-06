@@ -9,7 +9,7 @@ You can explore the live site here - [Link to deployed site](https://chriscross1
 
 ## Objective
 
-The aim of the website is to introduce the user to a friendly and profesional NGO, with the progressing desire to support the organisation by helping in person or by donating.
+The aim of the website is to introduce the user to a friendly and profesional NGO, with the progressing desire to support the organisation by helping in person or donating.
 ## UX
 
 ### Target Audience
@@ -77,7 +77,8 @@ Home of wild animals has been validated via W3C HTML Validator and the W3C CSS V
 
 ![Image of W3 CSS Code Validation](assets/images/readme-images/w3css_code_validation.png)
 
-- Lighthouse Audit
+The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings: Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
+
 - Accessibility Testing
   ### Manuel Testing / Testing User Stories
 
