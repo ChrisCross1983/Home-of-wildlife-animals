@@ -229,6 +229,7 @@ Home of wild animals consists of a 5-page website with 4 pages that the user can
 * CSS3 - Provides the styling for the website.
 
 ### Frameworks, Libraries & Programs Used
+
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes for the website
 * [Google Fonts](https://fonts.google.com/) - Used to import the 'Roboto' and 'Lora' fonts into the style.css file which are used on all pages of the project.
 * [Font Awesome](https://fontawesome.com/) - Used to add icons for aesthetic and UX purposes.
@@ -288,7 +289,7 @@ Responsiveness was tested via a few different mediums manually, including Chrome
 
 </details>
 
-## Manuel Testing / Testing User Stories TO DO!!
+## Manuel Testing
 
 In addition to the automated process above, manual testing was carried out on the site as well.
 
@@ -404,3 +405,5 @@ I would like to thank the original authors for their work and contributions, whi
 # Acknowledgements
 
 This site, Home of Wild Animals was designed and developed in conjunction with the Full Stack Software Developer Diploma course at the Code Institute. I would like to thank my mentor, my cohort facilitator, my classmates of our cohort, the Slack community and of course Code Institute for all their input and support.
+
+[Back to top](<#home-of-wildlife-animals---project-portfolio-1---html--css>)
