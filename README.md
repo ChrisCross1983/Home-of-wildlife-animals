@@ -135,8 +135,6 @@ The live link can be found here - https://chriscross1983.github.io/Home-of-wildl
 
 ## Code Validation
 
-Each site!!
-
 Home of wild animals has been validated via W3C HTML Validator and the W3C CSS Validator. There were 3 minor errors that came all up for the index.html page, where an error in relationship was detected. This was immediately corrected and documented down below in Bugs Fixed.
 
 ![Image W3 Code Validation](readme-images/w3_code_validation.png)

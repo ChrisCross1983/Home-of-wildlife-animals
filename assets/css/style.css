@@ -14,7 +14,7 @@ body {
     color: #8B4513; /* SaddleBrown */ 
 }
 
-h1, h2, h3:not(.quote-text) {
+h1, h2:not(.quote-text), h3 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -538,7 +538,7 @@ footer {
 
     .cover-text {
         width: 300px;
-        right: 50px;
+        right: 0;
     }
 
     #cover-thanks {
