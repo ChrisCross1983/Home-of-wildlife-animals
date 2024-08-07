@@ -16,25 +16,25 @@ The aim of the website is to introduce the user to a friendly and profesional NG
 ## Target Audience
 
   - User who are looking for volunteering projects
-  - User who have an affinity to animals, nature and travel topics 
-  - User of any age (maybe limited for volunteering in person) and residing all over the world can activley support
+  - User who have an affinity for animals, nature and travel topics 
+  - User of any age (maybe limited for volunteering in person due to physical effort) or gender and residing all over the world can activley support
 
 ## User Stories
 
   - A user should be able to determine the site's purpose immediately
   - A user should be able to easily and intuitively navigate the site
   - A user should be able to identify the content of each page easily
-  - A user should feel comfortable contacting the business for more information or to book an package
+  - A user should feel comfortable contacting the NGO for more information, donate a  certain ammount or register for voluntary work
 
 ## Site Aims
 
 - To introduce the business to the user in a warm, friendly and inviting manner
-- To provide the user with all the information needed to contact the business or to book an package for volunteering
+- To provide the user with all the information needed to contact the business or to register for voluntary work
 - To offer a alternative but also simple way to support (donation), if the user doesn´t want to volunteer in person
-- To offer a clear method to contact the business
 - To provide information about the organisation members and their mission
 - To supply a short overview of the main projects to work on together 
-- To deliver a starting guide to the cost of volunteering
+- To deliver and explain two easy to understand options of supporting the organisation
+- To offer a clear method to contact the business by an form
 
 # Design
 
@@ -95,13 +95,87 @@ or under the Acknowlegment section
 
 ## Home Page
 
+* The Home Page is the landing page of the website and the first impression the user will see. It is designed to warmly welcome the user and quickly find out the purpose of the website.
+
+* Initially, there is a large hero image featuring two zebras, accompanied by an emotional quote that aligns with the ethos by which the NGO stands by - the chosen styles and hues harmonize with each other and represent a natural atmosphere.
+
+* Followed by a large "About us" header, this section showcases and describes the members behind the organsiation, immediatley building trust with the visitor.
+
+* The same sized "Our Mission" header introduces the section that provides a detailed background on three main fields of voluntary work, giving the user a tangible understanding of the daily operations of an NGO.
+
+* Nearly at the bottom of the page there is a small section that helps the user follow a logical flow and easily navigate to the next page without needing to scroll back to the top.
+
+* Each section is fully responsive, with the multiple column content naturally transitioning into single column content. For better readibility,the headings also scale up with larger screen views.
+
+![Complete Home Page](readme-images/screenshot_home.png)
+
+<details><summary> Mobile Home Page </summary>
+
+![Mobile View of Home Page](readme-images/screenshot_mobile_home.png)
+
+</details>
+
 ## Projects Page
+
+* The projects page is the second page, reachable from its link of the navigation bar or as described above from the previous page at the bottom section.
+
+* The page lists the focus projects in an ordered way categorized in sepearate sections for animals, nature and people.
+
+* The goal of this page is to transparently describe the different projects areas, provide a better understanding of the practical work as a volunteer, and increase interest in choosing a favorite project the user feels connected to. 
+
+* The different color transparencies of the sections and small white borders between and surronding the body of the page make it easy for the user to visually understand when a new topic starts.
+
+* Nearly at the bottom of the page there is again a small section that helps the user follow a logical flow and easily navigate to the next page (or to the previous) without needing to scroll back to the top.
+
+* Each section is fully responsive, with the multiple column content naturally transitioning into single column content. For better readibility,the headings also scale up with larger screen views.
+
+![Complete view Projects Page](readme-images/screenshot_projects.png)
+
+<details><summary> Mobile Projects Page </summary>
+
+![Mobile view of Projects Page](readme-images/screenshot_mobile_projects.png)
+
+</details>
 
 ## Support Page
 
+* Thesupport page is the third page, reachable from its link of the navigation bar or as already described from the bottom section of each site.
+
+* The page describes the two ways a user can support the organization, including an easy-to-process "call to action" button for each section. The first button, "I want to help" redirects to the contact page of the website for further steps, while the "I want to donate" button links to an external site (www.paypal.com) to facilitate a donation.
+
+* The goal of this page is to build trust by giving the organization a personal character and explaining why support is a necessary part of ensuring the sustainability and survival of the NGO.
+
+* The different color transparencies of the sections and small white borders between and surronding the body of the page make it easy for the user to visually understand when a new topic starts.
+
+* Nearly at the bottom of the page there is again a small section that helps the user follow a logical flow and easily navigate to the next page (or to the previous) without needing to scroll back to the top.
+
+* Each section is fully responsive, with the multiple column content naturally transitioning into single column content. For better readibility, headings, buttons and text also scale up with larger screen view.
+
+![Complete view Support Page](readme-images/screenshot_support.png)
+
+<details><summary> Mobile Support Page </summary>
+
+![Mobile view of Support Page](readme-images/screenshot_mobile_support.png)
+
 ## Contact Page
 
+* The contact page is fully responsive, for better readibility, headings, buttons and text also scale up with larger screen view.
+
+![Complete view Contact Page](readme-images/screenshot_contact.png)
+
+<details><summary> Mobile Contact Page </summary>
+
+![Mobile view of Contact Page](readme-images/screenshot_mobile_contact.png)
+
 ## Thank you Page
+
+* The thank you page is fully responsive, for better readibility the text and an effect like position of the message field, change and scale up with larger screen view.
+
+![Complete view Thank You Page]()
+
+<details><summary> Mobile Thank You Page </summary>
+
+![Mobile view of Thank You Page]()
 
 ## Footer
 
