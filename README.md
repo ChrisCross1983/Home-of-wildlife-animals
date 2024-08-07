@@ -97,7 +97,7 @@ or under the Acknowlegment section
 
 * The Home Page is the landing page of the website and the first impression the user will see. It is designed to warmly welcome the user and quickly find out the purpose of the website.
 
-* Initially, there is a large hero image featuring two zebras, accompanied by an emotional quote that aligns with the ethos by which the NGO stands by - the chosen styles and hues harmonize with each other and represent a natural atmosphere.
+* Initially, there is a large hero image featuring two zebras, accompanied by an emotional quote that aligns with the ethos by which the NGO stands by (this kind of large background image you will find on all sites, the quote also on the projects and support sites) - the chosen styles and hues harmonize with each other and represent a natural atmosphere.
 
 * Followed by a large "About us" header, this section showcases and describes the members behind the organsiation, immediatley building trust with the visitor.
 
@@ -157,7 +157,19 @@ or under the Acknowlegment section
 
 ![Mobile view of Support Page](readme-images/screenshot_mobile_support.png)
 
+</details>
+
 ## Contact Page
+
+* The contact page is last visible page on the website, the goal is to turn the users gained interest into a communication request by using the form.
+
+* The contact form is kept simple and reflects some of the mentioned topics from the previous pages, such as the project areas (animals, humans, nature).
+
+* The design is consitent with the layout of the quote, feauturing three input fields; First Name, Last Name and Email Address. There is also an radio button field with three options; Animals, Nature and People, along with two select fields to choose one of four possible answers for the offered time periods in the categories; Quater and Year.
+
+* The required attribute prevents the user from submitting an incorrect form and ensures that all necessary input fields are filled out.
+
+* The form uses a GET function to link to a Thank You page, mimicking the effect of actually submitting the form. This improves the users visual interaction by displaying a personal message.
 
 * The contact page is fully responsive, for better readibility, headings, buttons and text also scale up with larger screen view.
 
@@ -167,28 +179,60 @@ or under the Acknowlegment section
 
 ![Mobile view of Contact Page](readme-images/screenshot_mobile_contact.png)
 
+</details>
+
 ## Thank you Page
+
+* The Thank You page cannot be accessed by the user from any links on the website. It can only be accessed by submitting the contact form on the Contact page which uses a GET function to retrieve the page to imitate the contact form submission.
+
+* The style and design is still consistent, with the navigation bar on top and footer on the bottom, to allow the user to navigate back to the main website.
 
 * The thank you page is fully responsive, for better readibility the text and an effect like position of the message field, change and scale up with larger screen view.
 
-![Complete view Thank You Page]()
+![Complete view Thank You Page](readme-images/screenshot_thankyou.png)
 
 <details><summary> Mobile Thank You Page </summary>
 
-![Mobile view of Thank You Page]()
+![Mobile view of Thank You Page](readme-images/screenshot_mobile_thankyou.png)
+
+</details>
 
 ## Footer
 
+![Large Footer View](readme-images/desktop_footer.png)
+
+![Mobile view Footer](readme-images/mobile_footer.png)
+
+[Back to top](<#Home of wildlife animals - Project portfolio 1 - HTML & CSS>)
+
 # Future Features
+
+* News feed with the latest progress and challenges of the projects
+
+* Gallery page for more impressions of the different projects and the working fields/headquarters of the organization
+
+* A more detailed "About Us" section introducing the entire team with a short summary and picture of each member
+
+* Implementation of an embedded and personalized donate button with direct payment options, allowing users to choose a fixed or variable amount, as well as regular donations through a subscription
+
+* Sign-up area to become an official member of the NGO, automatically collecting the yearly association fee via PayPal or bank transfer
+
+* Exclusive advantages for members, such as subscribing to a newsletter
 
 # Technologies Used
 
+### Languages used
+
 * HTML5 - Delivers the structure and content for the website.
 * CSS3 - Provides the styling for the website.
-* Balsamiq - Used to create wireframes for the website
-* Gitpod - Used to develop the website.
+
+### Frameworks, Libraries & Programs Used
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes for the website
+* [Google Fonts](https://fonts.google.com/) - Used to import the 'Roboto' and 'Lora' fonts into the style.css file which are used on all pages of the project.
+* [Font Awesome](https://fontawesome.com/) - Used to add icons for aesthetic and UX purposes.
+* [Gitpod](https://www.gitpod.io/) - Used to develop the website.
 * GitBash - Terminal used to push changes to the GitHub repository.
-* Github - Used to host and deploy the website.
+* [GitHub](https://github.com/) - Used as the respository for the projects code after being pushed from Git.
 
 # Deployment
 
