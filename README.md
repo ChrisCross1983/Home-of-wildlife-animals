@@ -203,7 +203,7 @@ or under the Acknowlegment section
 
 ![Mobile view Footer](readme-images/mobile_footer.png)
 
-[Back to top](<#Home of wildlife animals - Project portfolio 1 - HTML & CSS>)
+[Back to top](<#home-of-wildlife-animals---project-portfolio-1---html--css>)
 
 # Future Features
 
@@ -253,7 +253,7 @@ The live link can be found here - https://chriscross1983.github.io/Home-of-wildl
 
 ## Code Validation
 
-Home of wild animals has been validated via W3C HTML Validator and the W3C CSS Validator. There were 3 minor errors that came all up for the index.html page, where an error in relationship was detected. This was immediately corrected and documented down below in Bugs Fixed.
+Home of wild animals has been validated via W3C HTML Validator and the W3C CSS Validator. There were three minor errors that came all up for the index.html page, this was immediately corrected and documented down below in [Solved Bugs](<#bugs>).
 
 ![Image W3 Code Validation](readme-images/w3_code_validation.png)
 
@@ -267,13 +267,23 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 ## Accessibility Testing
 
-[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes which it passed.
+[Experte.com](https://www.experte.com/accessibility/contrast) was used to check the colour contrast on the website for accessibility purposes which it passed.
 
-![Image of Accessibility Test](readme-images/Accessibility_test.png)
+![Image of Accessibility Test](readme-images/contrast_check.png)
 
 ## Responsive Testing
 
-Responsiveness was tested via a few different mediums manually, including Chrome Devtools, The [Viewport Resizer](https://chromewebstore.google.com/detail/viewport-resizer-ultimate/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website.
+Responsiveness was tested via a few different mediums manually, including Chrome Devtools and the [Viewport Resizer](https://chromewebstore.google.com/detail/viewport-resizer-ultimate/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension.
+
+<details><summary> Screenshots Responsivness </summary>
+
+![Desktop Screen](readme-images/desktop_responsive.png)
+
+![Tablet Screen](readme-images/tablet_responsive.png)
+
+![Mobile Screen](readme-images/mobile_responsive.png)
+
+</details>
 
 ## Manuel Testing / Testing User Stories TO DO!!
 
@@ -330,7 +340,8 @@ In addition to the automated process above, manual testing was carried out on th
 
 # Bugs
 
-  - Solved Bugs: What the bug was and how you solved it.
+## Solved Bugs
+  - What the bug was and how you solved it.
   - Known Bugs : What the bug is and why you decided to leave it.
   - Unfixed Bugs
     
