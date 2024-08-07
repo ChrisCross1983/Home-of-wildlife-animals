@@ -15,7 +15,7 @@ The aim of the website is to introduce the user to a friendly and profesional NG
 
 ## Target Audience
 
-  - User who are looking for volunteering projects
+  - User interested in volunteering projects
   - User who have an affinity for animals, nature and travel topics 
   - User of any age (maybe limited for volunteering in person due to physical effort) or gender and residing all over the world can activley support
 
@@ -28,7 +28,7 @@ The aim of the website is to introduce the user to a friendly and profesional NG
 
 ## Site Aims
 
-- To introduce the business to the user in a warm, friendly and inviting manner
+- To introduce the organisation in a warm, friendly and inviting manner
 - To provide the user with all the information needed to contact the business or to register for voluntary work
 - To offer a alternative but also simple way to support (donation), if the user doesn´t want to volunteer in person
 - To provide information about the organisation members and their mission
@@ -39,13 +39,13 @@ The aim of the website is to introduce the user to a friendly and profesional NG
 # Design
 
 ## Color Scheme
-The main idea of building the color scheme was to visualize a warm atmosphere that fits the African culture. For the navigation bar the choise comes to a cool, calming shade of blue that conveys a feeling of confidence and stability. The main text is represented by an earthy tone of African savannahs and landscapes. The sections in the body are seperated by a smooth white line and the used color creates a welcoming and calming atmosphere. The footer symbolized by and green hue symbolizes the vegetation of african bush and dschungles. To ensure good contrast and accessibility, some text areas are written in white. This choice was made because the main color scheme does not have combinations that pass the contrast test.
+The main idea of building the color scheme was to visualize a warm atmosphere that fits the African culture. The navigation bar features a calming shade of blue for confidence and stability. The main text is represented by an earthy tone of African savannahs and landscapes. The sections in the body are seperated by a smooth white line and the used color creates a welcoming and calming atmosphere. The footer symbolized by and green hue symbolizes the vegetation of african bush and dschungles. To ensure good contrast and accessibility, some text areas are written in white. This choice was made because the main color scheme does not have combinations that pass the contrast test.
 
 ![Image Color Scheme](readme-images/pp1_color_scheme.png)
 
 ## Typography
 
-Two types of fonts were chosen for this website: "Roboto" and "Lora". The choice of these fonts enhances both readability and aesthetic appel. Roboto, with his clean and modern design, was used for the headings and action buttons. Lora adds a touch of classic refinement to the body text and the menu bar. For better readability and depth, the logo, menu bar and contact form are highlighted by a text shadow. Togehter, these fonts create a harmonious balance between modernity and tradition, perfectly complementing the warm and natural color scheme oft the website.
+Two types of fonts were chosen for this website: "Roboto" and "Lora". The choice of these fonts enhances both readability and aesthetic appel. Roboto, with its clean and modern design, was used for the headings and action buttons. Lora adds a touch of classic refinement to the body text and the menu bar. For better readability and depth, the logo, menu bar and contact form are highlighted by a text shadow. Togehter, these fonts create a harmonious balance between modernity and tradition, perfectly complementing the warm and natural color scheme oft the website.
 
 ## Wireframes
 
@@ -63,13 +63,7 @@ The design and structure for this website was created with balsamiq. The designs
 
 ## Site Structure
 
-Home of wild animals consists of 5 page website with 4 pages that the user can navigate between via the navigation bar. The  page is the default loading page. The Logo is on the left side and is also linked to the Home Page. On the right hand site of the logo are four navigation links of [Home](index.html), [Projects](projects.html), [Support](support.html) and [Contact](contact.html). The only hidden page is the ["Thank You" page](thankyou.html), which appears when the user completes and submits the form on the contact page. Until the screen size of 768px the user can navigate through a burger icon, which hides the navigation links for better vibility. When clicked, the menu bar it opens straight down to the bottom of the logo and shows the available options to choose from.
-
-## Imagery used
-
-or under the Acknowlegment section
-
-## Anything else you want to add that relates to UX/UI
+Home of wild animals consists of a 5-page website with 4 pages that the user can navigate between via the navigation bar. The  page is the default loading page. The Logo is on the left side and is also linked to the Home Page. On the right-hand site of the logo are four navigation links: [Home](index.html), [Projects](projects.html), [Support](support.html) and [Contact](contact.html). The only hidden page is the ["Thank You" page](thankyou.html), which appears when the user completes and submits the form on the contact page. Until the screen size of 768px the user can navigate through a burger icon, which hides the navigation links for better visibility. When clicked, the menu bar opens straight down to the bottom of the logo and shows the available options to choose from.
 
 # Features
 
@@ -199,6 +193,14 @@ or under the Acknowlegment section
 
 ## Footer
 
+* The Footer contains the social media links.
+
+* For better UX design, each of the social media links open in a new tab.
+
+* The Facebook, Instagram and Youtube links are purely for the educational purposes of the website and only navigate to the home page of each of the sites.
+
+* It also contains an email link which uses a mailto function to open the devices preferred email software. The email used is just a dummy email to show how the user interacts with the link.
+
 ![Large Footer View](readme-images/desktop_footer.png)
 
 ![Mobile view Footer](readme-images/mobile_footer.png)
@@ -233,6 +235,7 @@ or under the Acknowlegment section
 * [Gitpod](https://www.gitpod.io/) - Used to develop the website.
 * GitBash - Terminal used to push changes to the GitHub repository.
 * [GitHub](https://github.com/) - Used as the respository for the projects code after being pushed from Git.
+* [cloudconvert](https://cloudconvert.com/png-to-webp) - Used to convert and resize the images on the website.
 
 # Deployment
 
@@ -253,7 +256,7 @@ The live link can be found here - https://chriscross1983.github.io/Home-of-wildl
 
 ## Code Validation
 
-Home of wild animals has been validated via W3C HTML Validator and the W3C CSS Validator. There were three minor errors that came all up for the index.html page, this was immediately corrected and documented down below in [Solved Bugs](<#bugs>).
+Home of wild animals has been validated via W3C HTML Validator and the W3C CSS Validator. There were three minor errors categories coming up on different locations on the website, this was immediately corrected and documented down below in [Solved Bugs](<#bugs>).
 
 ![Image W3 Code Validation](readme-images/w3_code_validation.png)
 
@@ -293,9 +296,8 @@ In addition to the automated process above, manual testing was carried out on th
 
   - Verified that all the links link to the appropriate page with no broken links on all pages.
   - Verified that the logo when clicked links back to the Home Page.
-  - Verified that the logo image has an alt text and fallback image for non browser support of the svg file.
   - Verified that the hover effects are consistent on all links.
-  - Verified that the active page is highlighted.
+  - Verified that the active page is highlighted (also on each page of the website).
   - Verified that the navigation bar is full responsive.
 
 * Home Page
@@ -333,22 +335,72 @@ In addition to the automated process above, manual testing was carried out on th
 
 * Browser Testing
 
-  - Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Safari on both desktop and mobile.
+  - Love Light Photography has been manually tested in Google Chrome, Microsoft Edge, Mozilla Firefox on both desktop and mobile.
   - Verified that all images worked correctly
   - Verified that design and structure was consistent across all browsers.
   - Verfied responsiveness across all browsers.
 
+[Back to top](<#home-of-wildlife-animals---project-portfolio-1---html--css>)
+
 # Bugs
 
 ## Solved Bugs
-  - What the bug was and how you solved it.
-  - Known Bugs : What the bug is and why you decided to leave it.
-  - Unfixed Bugs
-    
-  Include screenshots/gif of issue and any resources used to fix them
+
+### HTML Validation
+
+The following errors was presented once the website was placed through W3C HTML Validator.
+
+![W3 Code error](readme-images/w3_code_error.png)
+
+It said that the "a" element must not appear as a descendant ot the "button" element. I removed the button element and add the class selector for creating a button within the a element, it cleared that error up.
+
+![W3 Code error 2](readme-images/w3_code-error_contact.png)
+
+It said that some type attribute had a bad value "name" and regarding this issue it was not allowed to use the "required" attribute in the input elements. I changed the wrong value from name to "text" and it cleared that error up.
+
+![W3 Code error 3](readme-images/w3_code-error_thankyou.png)
+
+It said that the a section lack heading was found.  deleted the section due to the unused id selector "filler" and it cleared that error up.
+
+![Wave Error](readme-images/wave_error_empty_label.png)
+
+It said that there is a "empty" form label found in the header regarding thenav toggle bar. Becaus there is not text intended I add an aria-hidden="true" to the i element and copy / paste it to all the other html sites, it cleared that error up. 
+  
+### Lighthouse Testing
+
+Due to the first Lighthouse report, I struggled with the "mobile perfomance" and tried to find some help online. I found this site [web.dev](https://web.dev/articles/optimize-lcp?hl=de), which helped me fix this issue.
+
+![Lovelight Mobile Perfomance before](readme-images/first_lovelight_audit.png)
+
+  1. First I converted the format of all images to webp and resize them using the tool [cloudconvert](https://cloudconvert.com/png-to-webp).
+  2. Then, I moved the "Google Import Fonts" from the style.css file to the HTML file.
+  3. I also added the attribute loading="lazy" to all body images, so they load only when the user scrolls to them.
+  4. Finally, I added the attribute "async" to the script element for the FontAwesome navigation bar icon, to speed up the website by loading the fonts in parallel with the rest of the site.
+
+These changes raise the perfomance to at least a value of 80.
+
+![Lovelight Mobile Perfomance after](readme-images/lighthouse_mobile.png)
 
 # Credits
 
-## Content and Code
-## Media
-## Acknowledgements
+* Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+* All images from the website were sourced from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/)
+* Images were compressed by [cloudconvert](https://cloudconvert.com/)
+* Colour palette was created by [coolors.co](https://coolors.co/)
+* Flexbox system was learned via [w3schools.com](https://www.w3schools.com/) and the [Flexbox Froggy Game](https://flexboxfroggy.com/)
+* Fix perfomance issue was inspired by [web.dev](https://web.dev/articles/optimize-lcp?hl=de)
+
+
+## Code
+
+* This project incorporates code from the following source:
+
+  - Love Running: Creating a navigation toggle that hides and disappear on mobile screens due to the smaler space, were adapted from this project.
+
+![Code Love Running Project](readme-images/Code_love_running.png)
+
+I would like to thank the original authors for their work and contributions, which have been instrumental part in the development of this project.
+
+# Acknowledgements
+
+This site, Home of Wild Animals was designed and developed in conjunction with the Full Stack Software Developer Diploma course at the Code Institute. I would like to thank my mentor, my cohort facilitator, my classmates of our cohort, the Slack community and of course Code Institute for all their input and support.
